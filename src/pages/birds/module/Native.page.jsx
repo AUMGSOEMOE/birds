@@ -1,7 +1,7 @@
 import React from "react";
-import { BirdList, Container, Skeleton } from "../components";
+import { BirdList, Container, Skeleton } from "../../../components";
 import { GiAzulFlake } from "react-icons/gi";
-import { useGetQuery } from "../store/endpoints/birdEndpoints";
+import { useGetQuery } from "../../../store/endpoints/birdEndpoints";
 
 const BirdPage = () => {
   const { data, isError, isLoading } = useGetQuery();
@@ -16,7 +16,11 @@ const BirdPage = () => {
         </div>
         <div className="grid grid-cols-12 gap-5">
           {isLoading ? (
-            <Skeleton />
+            <>
+              {Array.from({ length: 8 }).map((_, index) => (
+                <Skeleton key={index} />
+              ))}
+            </>
           ) : (
             <>
               {data.map((bird) => (

@@ -58,14 +58,14 @@ const HomePage = () => {
         <div className=" rounded-3xl pb-5 col-span-3 row-span-5">
           <div className="box w-full h-full">
             <div className="flex flex-col gap-8 mx-8 ">
-              <div className=" flex items-center justify-around mt-5 gap-5 rounded-3xl px-6 py-8 border border-secondary">
+              <div className=" flex items-center justify-around mt-5 gap-5 rounded-3xl px-6 py-8 border border-basic">
                 <a href="">
-                  <div className=" hover:bg-secondary active:scale-95 text-xl rounded-full p-5  border border-secondary ">
+                  <div className=" hover:bg-basic active:scale-95 text-xl rounded-full p-5  border border-basic ">
                     <LuUser2 />
                   </div>
                 </a>
                 <a href="">
-                  <div className=" hover:bg-secondary active:scale-95 text-xl rounded-full p-5  border border-secondary ">
+                  <div className=" hover:bg-basic active:scale-95 text-xl rounded-full p-5  border border-basic ">
                     <FiFacebook />
                   </div>
                 </a>
@@ -85,21 +85,23 @@ const HomePage = () => {
         {/* Box 5 */}
         <div className="p-5 box col-span-8 row-span-4">
           <div className="flex gap-5 justify-center ">
-            <div className="h-36 case">
-              <h3 className="text-3xl">၈၆၀၀</h3>
-              <p className="text-xs w-12">ငှက်အမျိုးပေါင်း(မျိုးစိတ်ပေါင်း)</p>
+            <div className=" h-32 case">
+              <h3 className="text-3xl">၁၁၄၆</h3>
+              <p className="text-xs ">ငှက်မျိုးစိတ်(ငှာနေ)</p>
             </div>
             <div className="case h-28">
-              <h3 className="text-3xl">၁၆၀၀</h3>
-              <p className="text-xs">မျိုးစုပေါင်း</p>
+              <h3 className="text-3xl">၃၀၀</h3>
+              <p className="text-xs">ဆောင်းခိုငှက်</p>
             </div>
             <div className="case h-28">
-              <h3 className="text-3xl">၁၅၅</h3>
+              <h3 className="text-3xl">၇</h3>
               <p className="text-xs ">မျိုးရင်းပေါင်း</p>
             </div>
             <div className="case h-28">
-              <h3 className="text-3xl">၂၇</h3>
-              <p className="text-xs ">မျိုးစဥ်ပေါင်း</p>
+              <h3 className="text-3xl">၄၂</h3>
+              <p className="text-xs w-24 ">
+                အန္တရာယ်ရှိသောမျိုးစိတ်ပေါင်း(မျိုးတုန်းရန်)
+              </p>
             </div>
           </div>
         </div>

@@ -34,10 +34,18 @@ const BirdListComponent = ({
           </button>
         </DialogTrigger>
       </div>
-      <DialogContent>
-        <DialogHeader>
-          <DialogTitle>{BirdMyanmarName}</DialogTitle>
-          <DialogDescription>{Description}</DialogDescription>
+      <DialogContent className="bg-black p-8 w-80 ">
+        <DialogHeader className="flex flex-col gap-3">
+          <div className="w-3/4 h-32 text-center self-center">
+            <img className="rounded-3xl w-full h-full" src={ImagePath} alt="" />
+          </div>
+          <div>
+            <h2 className="opacity-50">{BirdEnglishName}</h2>
+            <DialogTitle>{BirdMyanmarName}</DialogTitle>
+            <DialogDescription className="text-sm mt-3 overflow-y-scroll h-80">
+              {Description}
+            </DialogDescription>
+          </div>
         </DialogHeader>
       </DialogContent>
     </Dialog>

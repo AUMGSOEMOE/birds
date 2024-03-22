@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Bird, Home } from "./pages";
+import { Bird, Endangered, Endemic, Home, Migratory, Native } from "./pages";
 import { Navigation } from "./components";
 
 const App = () => {
@@ -9,7 +9,12 @@ const App = () => {
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/birds" element={<Bird />} />
+        <Route path="/birds" element={<Bird />}>
+          <Route index element={<Native />} />
+          <Route path="migratory" element={<Migratory />} />
+          <Route path="endemic" element={<Endemic />} />
+          <Route path="endangered" element={<Endangered />} />
+        </Route>
       </Routes>
     </div>
   );
