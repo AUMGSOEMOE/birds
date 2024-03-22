@@ -18,9 +18,7 @@ const NavigationComponent = () => {
           </Link>
         </div>
         <div>
-          <button className="rounded-lg bg-secondary px-6 py-1">
-            Let's Fly
-          </button>
+          <button className="rounded-lg bg-basic px-6 py-1">Let's Fly</button>
         </div>
       </div>
     </ContainerComponent>

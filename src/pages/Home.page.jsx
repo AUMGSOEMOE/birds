@@ -8,6 +8,7 @@ const HomePage = () => {
   return (
     <Container>
       <div className=" gap-5 h-screen grid grid-cols-12 grid-rows-12">
+        {/* Box 1 */}
         <div className="p-8 flex items-center gap-5 col-span-6 row-span-6 box ">
           <div className=" w-64 h-[90%] ">
             <img
@@ -32,7 +33,11 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+
+        {/* Box 2 */}
         <div className="p-5 rounded-3xl bg-box col-span-6"></div>
+
+        {/* Box 3 */}
         <div className="pb-5 rounded-3xl flex justify-center items-center   col-span-3 row-span-5">
           <div className=" w-full  h-full box ">
             <div className="flex items-center flex-col justify-center gap-6 w-[95%] h-full">
@@ -48,6 +53,8 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+
+        {/* Box 4 */}
         <div className=" rounded-3xl pb-5 col-span-3 row-span-5">
           <div className="box w-full h-full">
             <div className="flex flex-col gap-8 mx-8 ">
@@ -74,6 +81,8 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+
+        {/* Box 5 */}
         <div className="p-5 box col-span-8 row-span-4">
           <div className="flex gap-5 justify-center ">
             <div className="h-36 case">
@@ -94,6 +103,8 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+
+        {/* Box 6 */}
         <div className="p-5 rounded-3xl flex flex-col justify-between bg-box col-span-4 row-span-4">
           <div className="text-6xl ">
             <GiHummingbird />
