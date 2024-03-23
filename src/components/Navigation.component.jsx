@@ -16,7 +16,7 @@ const NavigationComponent = () => {
     <ContainerComponent>
       <div className="flex justify-between py-4 items-center">
         <div className="w-12">
-          <img src="./src/assets/Logobird.png" alt="" />
+          <img src="src/assets/Logobird.png" alt="" />
         </div>
         <div className="flex gap-5">
           <Link to={"/"}>
@@ -27,7 +27,7 @@ const NavigationComponent = () => {
           </Link>
         </div>
         <div>
-          <DropdownMenu className="!ring-0">
+          <DropdownMenu>
             <DropdownMenuTrigger>
               <button className="rounded-lg bg-basic px-6 py-1">
                 <TiThMenu />

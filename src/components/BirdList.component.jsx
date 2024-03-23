@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../components/ui/button";
 import {
   Dialog,
   DialogContent,
@@ -8,7 +7,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "../components/ui/dialog";
+} from "./ui/dialog";
 
 const BirdListComponent = ({
   data: { Id, BirdMyanmarName, BirdEnglishName, Description, ImagePath },
@@ -22,7 +21,7 @@ const BirdListComponent = ({
               <img
                 className=" rounded-3xl w-full h-full"
                 src={ImagePath}
-                alt=""
+                alt={BirdEnglishName}
               />
             </div>
             <div className="mt-3">

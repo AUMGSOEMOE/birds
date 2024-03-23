@@ -5,7 +5,10 @@ const birdEndpoints = ApiService.injectEndpoints({
     Get: builder.query({
       query: () => "/Tbl_Bird",
     }),
+    GetEndemic: builder.query({
+      query: () => "/Endemic",
+    }),
   }),
 });
 
-export const { useGetQuery } = birdEndpoints;
+export const { useGetQuery, useGetEndemicQuery } = birdEndpoints;

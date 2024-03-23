@@ -1,7 +1,12 @@
 import React from "react";
+import UnderConstructionComponent from "../../../components/lottie/UnderConstruction.component";
 
 const MigratoryPage = () => {
-  return <div>MigratoryPage</div>;
+  return (
+    <div>
+      <UnderConstructionComponent />
+    </div>
+  );
 };
 
 export default MigratoryPage;
