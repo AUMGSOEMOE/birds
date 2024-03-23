@@ -5,7 +5,7 @@ import { GiAzulFlake } from "react-icons/gi";
 const BirdPage = () => {
   return (
     <div>
-      <div className=" flex justify-center gap-2 items-center text-4xl">
+      <div className=" flex justify-center gap-2 items-center mb-5 text-4xl">
         <div className="flex justify-center gap-2 items-center">
           <GiAzulFlake />
           <h1>BIRDS</h1>
