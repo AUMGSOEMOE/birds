@@ -13,7 +13,7 @@ const HomePage = () => {
           <div className=" w-64 h-[90%] ">
             <img
               className="h-full rounded-3xl rounded-bl-none rounded-tr-md"
-              src="./src/assets/headerjpg.jpg"
+              src="./src/assets/main/headerjpg.jpg"
               alt=""
             />
           </div>
@@ -27,7 +27,7 @@ const HomePage = () => {
             <div className="mt-8 w-full  flex justify-end ">
               <img
                 className="w-6  opacity-90"
-                src="./src/assets/logout.png"
+                src="./src/assets/main/logout.png"
                 alt=""
               />
             </div>
@@ -41,7 +41,11 @@ const HomePage = () => {
         <div className="pb-5 rounded-3xl flex justify-center items-center   col-span-3 row-span-5">
           <div className=" w-full  h-full box ">
             <div className="flex items-center flex-col justify-center gap-6 w-[95%] h-full">
-              <img className="w-2/4" src="./src/assets/feather.png" alt="" />
+              <img
+                className="w-2/4"
+                src="./src/assets/main/feather.png"
+                alt=""
+              />
               <div className="flex items-center  px-5 justify-between w-full font-semibold">
                 <h4>Wikipedia</h4>
                 <img

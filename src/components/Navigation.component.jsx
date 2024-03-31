@@ -16,7 +16,7 @@ const NavigationComponent = () => {
     <ContainerComponent>
       <div className="flex justify-between py-4 items-center">
         <div className="w-12">
-          <img src="src/assets/Logobird.png" alt="" />
+          <img src="src/assets/main/Logobird.png" alt="" />
         </div>
         <div className="flex gap-5">
           <Link to={"/"}>
